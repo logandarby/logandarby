@@ -49,8 +49,8 @@ jobs:
 
       - name: Render the koi
         env:
-          # One of white, black, asagi, tea, gold, platinum.
-          KOI_BODY: white
+          # One of white, black, asagi, tea, gold, platinum, sage (sage is a local addition).
+          KOI_BODY: sage
         run: koi-src/target/release/git-koi render "$RUNNER_TEMP/koi-snapshot.json" --output-dir koi --body "$KOI_BODY"
 
       - name: Commit the koi if it changed

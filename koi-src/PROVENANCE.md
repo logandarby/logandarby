@@ -19,3 +19,10 @@ Security notes from the review:
   preview.html (static, no scripts) into the output directory.
 - Dependencies: chrono, gif, png, serde, serde_json, pinned with checksums in
   Cargo.lock.
+
+## Local changes
+
+- 2026-11-12: added a `sage` body (light sage green) — `SAGE_RAMP` and the
+  `KoiBody::Sage` variant in `src/coat.rs`, and the `sage` CLI name in
+  `src/main.rs`. Fins use the body's own ramp; color patches use the default
+  pigment ramps, as on the white body.

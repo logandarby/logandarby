@@ -108,6 +108,13 @@ const PLATINUM_RAMP: [[u8; 4]; 5] = [
     [244, 247, 251, 255],
     [255, 255, 255, 255],
 ];
+// Local addition: a light sage green body, shadow to highlight.
+const SAGE_RAMP: [[u8; 4]; 4] = [
+    [86, 107, 88, 255],
+    [133, 156, 128, 255],
+    [178, 199, 168, 255],
+    [219, 232, 210, 255],
+];
 const BRIGHT_YELLOW_RAMP: [[u8; 4]; 4] = [
     [215, 118, 67, 255],
     [254, 174, 52, 255],
@@ -204,6 +211,8 @@ pub enum KoiBody {
     Gold,
     /// Metallic platinum.
     Platinum,
+    /// Local addition: light sage green.
+    Sage,
 }
 
 impl KoiBody {
@@ -215,6 +224,7 @@ impl KoiBody {
             Self::Tea => &TEA_RAMP,
             Self::Gold => &GOLD_RAMP,
             Self::Platinum => &PLATINUM_RAMP,
+            Self::Sage => &SAGE_RAMP,
         }
     }
 
@@ -222,7 +232,7 @@ impl KoiBody {
         match self {
             Self::White | Self::Black => &WHITE_RAMP,
             Self::Asagi => &ORANGE_RAMP,
-            Self::Tea | Self::Gold | Self::Platinum => self.select_ground_ramp(),
+            Self::Tea | Self::Gold | Self::Platinum | Self::Sage => self.select_ground_ramp(),
         }
     }
 
@@ -240,7 +250,9 @@ impl KoiBody {
     fn select_streak_fin_ramp(self) -> &'static [[u8; 4]] {
         match self {
             Self::Asagi | Self::Gold => &RED_RAMP,
-            Self::White | Self::Black | Self::Tea | Self::Platinum => &STREAK_GOLD_RAMP,
+            Self::White | Self::Black | Self::Tea | Self::Platinum | Self::Sage => {
+                &STREAK_GOLD_RAMP
+            }
         }
     }
 
