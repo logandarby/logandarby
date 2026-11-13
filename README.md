@@ -4,10 +4,13 @@
 
 ---
 
-low-level things!
-
-∘˙○˚.• currently building suble.rocks (launch coming soon)
-
+∘˙○˚.• low-level things!<br>
+∘˙○˚.• currently building suble.rocks (soon!)<br>
 ∘˙○˚.• P.S... have you ever heard of [The Mimethesis](https://ericfolino.com/what-is-the-URL-path-of-this-webpage/)?
+
+---
+
+▷ listening to [vulture prince](https://open.spotify.com/album/6HrBTi1F76h7mJuQDHEijH)<br>
+1:47 ━━━━━━●──────── 4:12
 
 <br clear="left" />
