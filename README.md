@@ -4,9 +4,9 @@
 
 ---
 
-∘˙○˚.• low-level things!<br>
-∘˙○˚.• currently building suble.rocks (soon!)<br>
-∘˙○˚.• P.S... have you ever heard of [The Mimethesis](https://ericfolino.com/what-is-the-URL-path-of-this-webpage/)?
+○˚.∘ low-level things!<br>
+○˚.∘ currently building suble.rocks (soon!)<br>
+○˚.∘ P.S... have you ever heard of [The Mimethesis](https://ericfolino.com/what-is-the-URL-path-of-this-webpage/)?
 
 ---
 
